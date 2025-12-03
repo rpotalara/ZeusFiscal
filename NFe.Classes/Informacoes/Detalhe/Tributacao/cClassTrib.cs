@@ -399,9 +399,29 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao
         [XmlEnum("410026")]
         ct410026 = 410026,
 
+        [Description("Serviços vinculados direta e exclusivamente à exportação de bens materiais ou associados à entrega no exterior de bens materiais, considerados exportação de serviços ou de bem imaterial, observado o art. 6º da Lei Complementar nº 214, de 2025.")]
+        [XmlEnumAttribute("ct410027")]
+        ct410027 = 410027,
+
+        [Description("Operações com bens imóveis realizadas por pessoas físicas não consideradas contribuintes do regime regular do IBS e da CBS, observado o art. 251 da Lei Complementar nº 214, de 2025.")]
+        [XmlEnumAttribute("ct410028")]
+        ct410028 = 410028,
+
+        [Description("Operações não sujeitas à incidência de IBS e de CBS, alcançadas apenas por obrigação acessória do ICMS, observado o art. 4º da Lei Complementar nº 214, de 2025.")]
+        [XmlEnumAttribute("ct410029")]
+        ct410029 = 410029,
+
+        [Description("Estorno de crédito apropriado de bens adquiridos e venham a perecer, deteriorar-se ou ser objeto de roubo, furto ou extravio, observado o art. 47 da Lei Complementar nº 214, de 2025.")]
+        [XmlEnumAttribute("ct410030")]
+        ct410030 = 410030,
+
+        [Description("Fornecimento em período anterior ao início de vigência de incidências de CBS e IBS, observado o art. 544 da Lei Complementar nº 214, de 2025.")]
+        [XmlEnumAttribute("ct410031")]
+        ct410031 = 410031,
+
         [Description("Operações não onerosas sem previsão de tributação, não especificadas anteriormente, observado o art. 4º da Lei Complementar nº 214, de 2025.")]
         [XmlEnum("410999")]
-        ct410099 = 410999,
+        ct410999 = 410999,
 
         [Description("Operações, sujeitas a diferimento, com energia elétrica ou com direitos a ela relacionados, relativas à geração, comercialização, distribuição e transmissão, observado o art. 28 da Lei Complementar nº 214, de 2025.")]
         [XmlEnum("510001")]
@@ -566,6 +586,14 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao
         [Description("Documento com informações de fornecimento de serviços de exploração de via, mas com tributação realizada por outro meio, observado o art. 11 da Lei Complementar nº 214, de 2025.")]
         [XmlEnum("820006")]
         ct820006 = 820006,
+
+        [Description("Documento com informações de fornecimento de serviços financeiros, mas com tributação realizada por outro meio, observado o art. 181 da Lei Complementar nº 214, de 2025.")]
+        [XmlEnum("820007")]
+        ct820007 = 820007,
+
+        [Description("Documento com informações de fornecimento, mas com tributação realizada em fatura anterior, observado o art. 10 da Lei Complementar nº 214, de 2025.")]
+        [XmlEnum("820008")]
+        ct820008 = 820008,
 
         [Description("Documento com exclusão da base de cálculo da CBS e do IBS refrente à energia elétrica fornecida pela distribuidora à unidade consumidora, conforme Art 28, parágrafos 3° e 4°.")]
         [XmlEnum("830001")]
