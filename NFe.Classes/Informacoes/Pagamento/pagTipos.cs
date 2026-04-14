@@ -23,6 +23,8 @@ namespace NFe.Classes.Informacoes.Pagamento
     ///     <para>20 - Pagamento Instantâneo (PIX) estático</para>
     ///     <para>21 - Crédito em loja</para>
     ///     <para>22 - Pagamento eletrônico não informado - falha de hardware do sistema emissor</para>
+    ///     <para>23 - Pagamento Instantâneo (PIX) - Automático</para>
+    ///     <para>24 - TEF - 'Book Transfer'</para>
     ///     <para>90 - Sem pagamento (versão 4.00)</para>
     ///     <para>99 - Outros</para>
     /// </summary>
@@ -148,6 +150,18 @@ namespace NFe.Classes.Informacoes.Pagamento
         /// </summary>
         [Description("Pagamento eletrônico não informado")]
         [XmlEnum("22")] fpPagamentoEletronicoNaoInformado = 22,
+
+        /// IT 2024_002 v1.11 - Atualiza Tabela Meios de Pagamento <summary>
+        /// 23 - Pagamento Instantâneo (PIX) - Automático
+        /// </summary>
+        [Description("Pagamento Instantâneo (PIX) - Automático")]
+        [XmlEnum("23")] fpPagamentoInstantaneoPIXAutomatico = 23,
+
+        /// IT 2024_002 v1.11 - Atualiza Tabela Meios de Pagamento <summary>
+        /// 24 - TEF - 'Book Transfer'
+        /// </summary>
+        [Description("TEF - 'Book Transfer'")]
+        [XmlEnum("24")] fpTEFBookTransfer = 24,
 
         /// <summary>
         /// 90 - Sem pagamento
