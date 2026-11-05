@@ -472,6 +472,34 @@ namespace NFe.Classes.Servicos.Tipos
         CancelamentoComprovanteEntregaCTe = 610131,
 
         /// <summary>
+        /// 610600 – CT-e Autorizado (registrado pelo Ambiente Nacional quando um CT-e que referencia a NF-e é autorizado)
+        /// </summary>
+        [Description("CT-e Autorizado")]
+        [XmlEnum("610600")]
+        TeNfeCTeAutorizado = 610600,
+
+        /// <summary>
+        /// 610601 – CT-e Cancelado (registrado pelo Ambiente Nacional quando o CT-e que referencia a NF-e é cancelado)
+        /// </summary>
+        [Description("CT-e Cancelado")]
+        [XmlEnum("610601")]
+        TeNfeCTeCancelado = 610601,
+
+        /// <summary>
+        /// 610610 – MDF-e Autorizado (registrado pelo Ambiente Nacional quando um MDF-e que referencia a NF-e é autorizado)
+        /// </summary>
+        [Description("MDF-e Autorizado")]
+        [XmlEnum("610610")]
+        TeNfeMDFeAutorizado = 610610,
+
+        /// <summary>
+        /// 610611 – MDF-e Cancelado (registrado pelo Ambiente Nacional quando o MDF-e que referencia a NF-e é cancelado)
+        /// </summary>
+        [Description("MDF-e Cancelado")]
+        [XmlEnum("610611")]
+        TeNfeMDFeCancelado = 610611,
+
+        /// <summary>
         /// 790700 – Averbação para Exportação
         /// </summary>
         [Description("Averbação para Exportação")]
